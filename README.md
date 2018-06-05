@@ -22,9 +22,9 @@ Go ahead and select the JavaScript tab and you'll see some JavaScript code
 
 ```javascript
 //Enter querySelector Code here
-var header = "ENTER HEADER CODE HERE"
-var linkText = "ENTER LINK TEXT CODE HERE"
-var linkHref = "ENTER LINK HREF CODE HERE"
+var header = document.querySelector('#header').innerHTML;
+var linkText = document.querySelector('a').text;
+var linkHref = document.querySelector('a').href;
 
 
 // NO NEED TO MODIFY BELOW HERE
@@ -166,3 +166,5 @@ Good luck!
 <p class='util--hide'>View <a href='https://learn.co/lessons/selecting-single-elements-lab'>Selecting Single Elements Lab</a> on Learn.co and start learning to code for free.</p>
 
 [mdnerrors]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors
+
+
